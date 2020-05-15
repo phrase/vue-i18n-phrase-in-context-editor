@@ -1,0 +1,41 @@
+{
+  "name": "vue-i18n-phrase-in-context-editor",
+  "version": "0.1.0",
+  "description": "Integrate Phrase In-Context Editor with your vue-i18n app",
+  "repository": "https://github.com/phrase/vue-i18n-phrase-in-context-editor.git",
+  "author": "Jakub Freisler <jakub.freisler(at)gmail.com>",
+  "license": "MIT",
+  "main": "./dist/vue-i18n-phrase-in-context-editor.umd.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "vue-cli-service build ---name vueI18nPhraseInContextEditor --target lib index.ts",
+    "test": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "peerDependencies": {
+    "vue-i18n": ">=8.17.6"
+  },
+  "dependencies": {
+    "@sagi.io/globalthis": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-typescript": "~4.3.0",
+    "@vue/cli-plugin-unit-jest": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "@vue/test-utils": "1.0.0-beta.31",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "typescript": "~3.8.3",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.17.6"
+  }
+}
