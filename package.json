@@ -1,7 +1,7 @@
 {
   "name": "vue-i18n-phrase-in-context-editor",
   "version": "0.1.0",
-  "description": "Integrate Phrase In-Context Editor with your vue-i18n app",
+  "description": "Integrate Phrase In-Context Editor into your Vue I18n app with ease!",
   "repository": "https://github.com/phrase/vue-i18n-phrase-in-context-editor.git",
   "author": "Jakub Freisler <jakub.freisler(at)gmail.com>",
   "license": "MIT",
@@ -11,7 +11,9 @@
   "scripts": {
     "build": "vue-cli-service build ---name vueI18nPhraseInContextEditor --target lib index.ts",
     "test": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "peerDependencies": {
     "vue-i18n": ">=8.17.6"
@@ -36,6 +38,8 @@
     "eslint-plugin-vue": "^6.2.2",
     "typescript": "~3.8.3",
     "vue": "^2.6.11",
-    "vue-i18n": "^8.17.6"
+    "vue-i18n": "^8.17.6",
+    "vuepress": "^1.5.0",
+    "vuepress-plugin-clean-urls": "^1.1.1"
   }
 }

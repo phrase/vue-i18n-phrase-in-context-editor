@@ -1,4 +1,4 @@
-# vue-i18n-phrase
+# simple usage
 
 ## Project setup
 ```

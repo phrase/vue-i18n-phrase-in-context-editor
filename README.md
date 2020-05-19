@@ -26,7 +26,7 @@ yarn
 yarn build
 
 # serve examples at localhost:8080
-cd examples/demo-app
+cd examples/simple-usage
 yarn
 yarn serve
 
