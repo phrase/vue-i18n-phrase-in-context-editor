@@ -21,3 +21,10 @@ npm run serve
 ```
 
 Now the application is visible under [http://localhost:8080/](http://localhost:8080/).
+
+This application uses demo Phrase account under the hood. To login, use authentication data written below:
+
+```bash
+E-Mail: demo@phraseapp.com
+Password: phrase
+```

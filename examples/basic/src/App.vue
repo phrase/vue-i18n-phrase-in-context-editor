@@ -2,18 +2,15 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloI18n />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
 import HelloI18n from './components/HelloI18n.vue'
 
 @Component({
   components: {
-    HelloWorld,
     HelloI18n
   },
 })

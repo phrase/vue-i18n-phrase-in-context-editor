@@ -1,34 +1,23 @@
-# simple usage
+# Vue I18n Phrase In-Context Editor basic demo
 
-## Project setup
-```
+## How to use the demo
+
+### Install dependencies & run
+
+```bash
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
+### Login to Phrase demo project
+
+This demo uses special, demo [Phrase](https://phrase.com) project. Use authentication info written below to login:
+
+```bash
+E-Mail: demo@phraseapp.com
+Password: phrase
 ```
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## More information
 
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+For more info, please have a look at [Vue I18n Phrase In-Context Editor documentation](https://phrase.github.io/vue-i18n-phrase-in-context-editor).
