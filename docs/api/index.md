@@ -35,7 +35,7 @@ Whenever disabled **Vue I18n Phrase In-Context Editor** will try to bring back o
 
 ## VueI18nPhraseOptions
 
-Partial type of the [<Badge text="PhraseConfig" vertical="middle" />](#PhraseConfig) with only 2 properties required: `phraseEnabled` and `projectId`.
+Partial type of the [<Badge text="PhraseConfig" vertical="middle" />](#phraseconfig) with only 2 properties required: `phraseEnabled` and `projectId`.
 
 ## VueI18nPhraseFormatter
 
