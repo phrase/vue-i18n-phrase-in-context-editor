@@ -2,6 +2,7 @@
 node_modules
 coverage
 dist
+release
 
 # local env files
 .env.local
