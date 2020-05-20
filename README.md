@@ -1,6 +1,11 @@
-# vue-i18n-phrase-in-context-editor
+# Vue I18n Phrase In-Context Editor
 
-`vue-i18n-phrase-in-context-editor` is the official library for integrating [Phrase In-Context-Editor](https://github.com/phrase/in_context_editor) with [vue-i18n](https://github.com/kazupon/vue-i18n). 
+[![NPM version](https://img.shields.io/npm/v/vue-i18n-phrase-in-context-editor)](https://www.npmjs.com/package/vue-i18n-phrase-in-context-editor)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![LICENSE MIT](https://img.shields.io/github/license/phrase/vue-i18n-phrase-in-context-editor)](https://github.com/phrase/vue-i18n-phrase-in-context-editor/blob/master/LICENSE)
+[![GitHub deployments](https://img.shields.io/github/deployments/phrase/vue-i18n-phrase-in-context-editor/github-pages?label=docs-deploy)](github.com/phrase/vue-i18n-phrase-in-context-editor/deployments?environment=github-pages)
+
+**Vue I18n Phrase In-Context Editor** is the official library for integrating [Phrase In-Context-Editor](https://github.com/phrase/in_context_editor) with [vue-i18n](https://github.com/kazupon/vue-i18n). 
 
 Get started with the [documentation](https://phrase.github.io/vue-i18n-phrase-in-context-editor), or play with the [examples](https://github.com/phrase/vue-i18n-phrase-in-context-editor/tree/master/examples) (see how to run them below).
 
@@ -39,7 +44,7 @@ yarn test
 
 ## :package: Releasing
 
-> TBD
+Package is being released automatically with the use of [Semantic Release Action](https://github.com/marketplace/actions/action-for-semantic-release). Just push new commit to the master and new version will be released right away!
 
 ## :copyright: License
 
