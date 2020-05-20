@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.0.0...v1.0.1) (2020-05-20)
+
+
+### Bug Fixes
+
+* use proper `type import` when importing VueI18n ([#2](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues/2)) ([b354e93](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/b354e939ebab2741630facecea20af8eedb6e571))
+
 # 1.0.0 (2020-05-19)
 
 
