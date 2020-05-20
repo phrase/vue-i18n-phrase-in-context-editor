@@ -5,9 +5,11 @@
 [![LICENSE MIT](https://img.shields.io/github/license/phrase/vue-i18n-phrase-in-context-editor)](https://github.com/phrase/vue-i18n-phrase-in-context-editor/blob/master/LICENSE)
 [![GitHub deployments](https://img.shields.io/github/deployments/phrase/vue-i18n-phrase-in-context-editor/github-pages?label=docs-deploy)](github.com/phrase/vue-i18n-phrase-in-context-editor/deployments?environment=github-pages)
 
-**Vue I18n Phrase In-Context Editor** is the official library for integrating [Phrase In-Context-Editor](https://github.com/phrase/in_context_editor) with [vue-i18n](https://github.com/kazupon/vue-i18n). 
+**Vue I18n Phrase In-Context Editor** is the official library for integrating [Phrase In-Context-Editor](https://help.phrase.com/help/translate-directly-on-your-website) with [Vue I18n](https://kazupon.github.io/vue-i18n/).
 
-Get started with the [documentation](https://phrase.github.io/vue-i18n-phrase-in-context-editor), or play with the [examples](https://github.com/phrase/vue-i18n-phrase-in-context-editor/tree/master/examples) (see how to run them below).
+## :scroll: Documentation
+
+To get started, have a look at the [documentation](https://phrase.github.io/vue-i18n-phrase-in-context-editor/). There you will find [API docs](https://phrase.github.io/vue-i18n-phrase-in-context-editor/api/), [getting started guide](https://phrase.github.io/vue-i18n-phrase-in-context-editor/guide/getting-started/), [examples](https://phrase.github.io/vue-i18n-phrase-in-context-editor/examples/) and many more!
 
 ## :question: Questions
 
@@ -15,11 +17,11 @@ For questions and support contact us at: [phrase.com/contact](https://phrase.com
 
 ## :exclamation: Issues
 
-Please use GitHub issues to share the problem.
+Please use [GitHub issues](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues) to share the problem.
 
-## :scroll: Changelog
+## :memo: Changelog
 
-Details changes for each release are documented in the [release notes](https://github.com/phrase/vue-i18n-phrase-in-context-editor/releases)
+Details changes for each release are documented in the [changelog](https://github.com/phrase/vue-i18n-phrase-in-context-editor/blob/master/CHANGELOG.md)
 
 ## :hammer: Development
 
@@ -31,7 +33,7 @@ yarn
 yarn build
 
 # serve examples at localhost:8080
-cd examples/simple-usage
+cd examples/basic
 yarn
 yarn serve
 
@@ -44,7 +46,7 @@ yarn test
 
 ## :package: Releasing
 
-Package is being released automatically with the use of [Semantic Release Action](https://github.com/marketplace/actions/action-for-semantic-release). Just push new commit to the master and new version will be released right away!
+Package is being released automatically with the use of [Semantic Release Action](https://github.com/marketplace/actions/action-for-semantic-release). Just push a commit to the master and a new version will be released right away!
 
 ## :copyright: License
 
