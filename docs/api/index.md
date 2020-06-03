@@ -2,7 +2,7 @@
 
 ## VueI18nPhrase
 
-The `VueI18nPhrase` class is the first-class citizen of our library and the main point of interaction between **Vue I18n Phrase In-Context Editor** and [**Vue I18n**](https://kazupon.github.io/vue-i18n/).
+The `VueI18nPhrase` class is the first-class citizen of our library and the main point of interaction between the **Vue I18n Phrase In-Context Editor** and the [**Vue I18n**](https://kazupon.github.io/vue-i18n/).
 
 ### Constructor
 
@@ -30,7 +30,7 @@ If the **In-Context Editor** is not yet loaded, changing `phraseEnabled` to `tru
 :::
 
 :::tip
-Whenever disabled **Vue I18n Phrase In-Context Editor** will try to bring back original **Vue I18n** formatter. More info about how the formatter are being handled, please head to the [introduction](../guide/).
+Whenever disabled, the **Vue I18n Phrase In-Context Editor** will try to bring back the original **Vue I18n** formatter. For more information on how the formatters are being handled, please head to the [introduction](../guide/).
 :::
 
 ## VueI18nPhraseOptions

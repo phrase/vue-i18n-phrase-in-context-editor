@@ -3,12 +3,12 @@
 ## Compatibility
 
 ::: warning
-**Vue I18n Phrase In-Context Editor** supports all **Vue I18n** versions newer than [`8.17.5`](https://github.com/kazupon/vue-i18n/releases/tag/v8.17.5). Altough this library might work with previous versions as well, they're not officialy supported and won't get any specific updated or bug fixes.
+**Vue I18n Phrase In-Context Editor** supports all **Vue I18n** versions newer than [`8.17.5`](https://github.com/kazupon/vue-i18n/releases/tag/v8.17.5). Although this library might work with previous versions as well, they're not officialy supported and won't get any specific updates or bug fixes.
 :::
 
 ## Installation
 
-You can install the package with the use of you favourite package manager:
+You can install the package with the use of your favorite package manager:
 
 ```bash
 # yarn
@@ -25,7 +25,7 @@ or load it via CDN:
 ```
 
 ::: tip
-When loading through CDN **Vue I18n Phrase In-Context Editor** will install itself automatically, but you need to provide it with proper configuration through window properties (`window.PHRASEAPP_ENABLED` and `window.PHRASEAPP_CONFIG`).
+When loading through CDN, **Vue I18n Phrase In-Context Editor** will install itself automatically, however you need to provide it with proper configuration through window properties (`window.PHRASEAPP_ENABLED` and `window.PHRASEAPP_CONFIG`).
 :::
 
 ## Usage
@@ -52,12 +52,12 @@ new Vue({
 }).$mount('#app');
 ```
 
-In this case to integrate ou library you only need to follow two, simple steps:
+In this case, to integrate our library you only need to follow two simple steps:
 
-- Import the **Vue I18n Phrase In-Context-Editor** library.
-- Create new **Vue I18n Phrase In-Context-Editor** instance, passing **Vue I18n** instance as a first argument and *Phrase Config* as a second.
+- Import the **Vue I18n Phrase In-Context Editor** library.
+- Create new **Vue I18n Phrase In-Context Editor** instance, passing **Vue I18n** instance as a first argument and *Phrase Config* as a second.
 
-Sounds easy enough, right? Let's have a look at updated example:
+Sounds easy enough, right? Let's have a look at an updated example:
 
 ```typescript{3,15-18}
 import Vue from 'vue';
@@ -85,6 +85,6 @@ new Vue({
 }).$mount('#app')
 ```
 
-From now on **In-Context Editor** is fully integrated into you Vue app, congratulations! :tada:
+From now on, the **In-Context Editor** is fully integrated into your Vue app, congratulations! :tada:
 
 For further information about the possible configuration options and useful methods, please have a look at our [API docs](../../api).

@@ -9,11 +9,11 @@
 
 ## :scroll: Documentation
 
-To get started, have a look at the [documentation](https://phrase.github.io/vue-i18n-phrase-in-context-editor/). There you will find [API docs](https://phrase.github.io/vue-i18n-phrase-in-context-editor/api/), [getting started guide](https://phrase.github.io/vue-i18n-phrase-in-context-editor/guide/getting-started/), [examples](https://phrase.github.io/vue-i18n-phrase-in-context-editor/examples/) and many more!
+To get started, have a look at the [documentation](https://phrase.github.io/vue-i18n-phrase-in-context-editor/). There you will find [API docs](https://phrase.github.io/vue-i18n-phrase-in-context-editor/api/), [getting started guide](https://phrase.github.io/vue-i18n-phrase-in-context-editor/guide/getting-started/), [examples](https://phrase.github.io/vue-i18n-phrase-in-context-editor/examples/) and much more!
 
 ## :question: Questions
 
-For questions and support contact us at: [phrase.com/contact](https://phrase.com/contact). The issue list of this repo is **exclusively** for bug reports and feature requests.
+For questions or support, contact us at: [phrase.com/contact](https://phrase.com/contact). The issue list of this repo is **exclusively** for bug reports or feature requests.
 
 ## :exclamation: Issues
 
@@ -21,7 +21,7 @@ Please use [GitHub issues](https://github.com/phrase/vue-i18n-phrase-in-context-
 
 ## :memo: Changelog
 
-Details changes for each release are documented in the [changelog](https://github.com/phrase/vue-i18n-phrase-in-context-editor/blob/master/CHANGELOG.md)
+Detailed changes for each release are documented in the [changelog](https://github.com/phrase/vue-i18n-phrase-in-context-editor/blob/master/CHANGELOG.md).
 
 ## :hammer: Development
 
