@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.0.1...v1.0.2) (2020-06-15)
+
+
+### Bug Fixes
+
+* add missing type definitions to the package ([e7285e4](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/e7285e45894a66b0a0f1d8e926694222248bad5d))
+
 ## [1.0.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.0.0...v1.0.1) (2020-05-20)
 
 
