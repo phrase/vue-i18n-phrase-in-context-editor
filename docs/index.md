@@ -3,6 +3,7 @@ home: true
 heroImage: /logo.svg
 heroText: Vue I18n Phrase In-Context Editor
 tagline: Integrate Phrase In-Context Editor into your Vue I18n app with ease!
+description: Integrate Phrase In-Context Editor into your Vue I18n app with ease!
 actionText: Get Started →
 actionLink: /guide/
 features:
