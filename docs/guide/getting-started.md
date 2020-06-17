@@ -12,10 +12,10 @@ You can install the package with the use of your favorite package manager:
 
 ```bash
 # yarn
-yarn add vue-i18n-phase-in-context-editor
+yarn add vue-i18n-phrase-in-context-editor
 
 # npm
-npm install vue-i18n-phase-in-context-editor
+npm install vue-i18n-phrase-in-context-editor
 ```
 
 or load it via CDN:
