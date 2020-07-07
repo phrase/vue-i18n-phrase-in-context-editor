@@ -25,7 +25,7 @@ or load it via CDN:
 ```
 
 ::: tip
-When loading through CDN, **Vue I18n Phrase In-Context Editor** will install itself automatically, however you need to provide it with proper configuration through window properties (`window.PHRASEAPP_ENABLED` and `window.PHRASEAPP_CONFIG`).
+When loading through CDN, you still need to register **Vue I18n Phrase In-Context Editor** by yourself. Whole [<Badge text="VueI18nPhraseInContextEditor" vertical="middle" />](../../api/#vuei18nphrase) object is available globally under ```window['vue-i18n-phrase-in-context-editor']```.
 :::
 
 ## Usage
