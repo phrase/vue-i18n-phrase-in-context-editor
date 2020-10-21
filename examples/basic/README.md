@@ -14,7 +14,7 @@ yarn serve
 This demo uses special, demo [Phrase](https://phrase.com) project. Use authentication info written below to login:
 
 ```bash
-E-Mail: demo@phraseapp.com
+E-Mail: demo@phrase.com
 Password: phrase
 ```
 

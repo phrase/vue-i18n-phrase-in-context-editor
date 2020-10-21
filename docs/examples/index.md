@@ -25,6 +25,6 @@ Now the application is visible under [http://localhost:8080/](http://localhost:8
 This application uses a demo Phrase account under the hood. To login, use authentication data provided below:
 
 ```bash
-E-Mail: demo@phraseapp.com
+E-Mail: demo@phrase.com
 Password: phrase
 ```
