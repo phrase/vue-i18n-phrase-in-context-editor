@@ -1,8 +1,8 @@
 name: Test coverage 
 on: [push, pull_request]
 jobs:
-  lint:
-    name: Lint
+  test:
+    name: Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
