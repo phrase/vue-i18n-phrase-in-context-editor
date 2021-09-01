@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.0.2...v1.1.0) (2021-09-01)
+
+
+### Features
+
+* add 'sanitize' config option ([b2c1f0d](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/b2c1f0d99a8b8ada9ff090eb06ac62e481c51d36))
+
 ## [1.0.2](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.0.1...v1.0.2) (2020-06-15)
 
 
