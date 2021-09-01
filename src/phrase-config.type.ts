@@ -30,4 +30,5 @@ export type PhraseConfig = {
         identifier: string;
     };
     fullReparse: boolean;
+    sanitize?: (content: string)=> string;
 };
