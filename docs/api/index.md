@@ -70,7 +70,7 @@ suffix: string
 
 ## PhraseConfig
 
-Type describing all possible **Phrase In-Context Editor** config options.
+Type describing all possible **Phrase In-Context Editor** config options. Further details [here](https://help.phrase.com/help/configure-in-context-editor).
 
 ```typescript
 phraseEnabled: boolean;
@@ -104,4 +104,5 @@ sso: {
     identifier: string;
 };
 fullReparse: boolean = true;
+sanitize?: (content: string) => string;
 ```
