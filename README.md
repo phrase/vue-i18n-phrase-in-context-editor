@@ -13,7 +13,7 @@ To get started, have a look at the [documentation](https://phrase.github.io/vue-
 
 ## :question: Questions
 
-For questions or support, contact us at: [phrase.com/contact](https://phrase.com/contact). The issue list of this repo is **exclusively** for bug reports or feature requests.
+For questions or support, contact us at: [phrase.com/contact](https://phrase.com/contact).
 
 ## :exclamation: Issues
 
