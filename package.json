@@ -1,6 +1,6 @@
 {
   "name": "vue-i18n-phrase-in-context-editor",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Integrate Phrase In-Context Editor into your Vue I18n app with ease!",
   "repository": "https://github.com/phrase/vue-i18n-phrase-in-context-editor.git",
   "author": "Jakub Freisler <jakub.freisler(at)gmail.com>",
