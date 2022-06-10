@@ -45,7 +45,7 @@
     "eslint-config-phrase": "git+https://github.com/phrase/eslint-config-phrase.git",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
-    "semantic-release": "^17.0.7",
+    "semantic-release": "^19.0.3",
     "typescript": "~3.8.3",
     "vue": "^2.6.11",
     "vue-i18n": "^8.17.6",
