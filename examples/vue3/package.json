@@ -1,0 +1,27 @@
+{
+  "name": "vue3",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "pnpm build-integration && vite",
+    "build": "run-p type-check build-only",
+    "build-integration": "pnpm -C ../../ build",
+    "preview": "vite preview --port 4173",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@sagi.io/globalthis": "^0.0.2",
+    "vue": "^3.2.37",
+    "vue-i18n-phrase-in-context-editor": "../.."
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.41",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/tsconfig": "^0.1.3",
+    "npm-run-all": "^4.1.5",
+    "typescript": "~4.7.4",
+    "vite": "^2.9.12",
+    "vue-i18n": "^9.1.10",
+    "vue-tsc": "^0.38.1"
+  }
+}
