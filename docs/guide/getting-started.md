@@ -28,7 +28,7 @@ or load it via CDN:
 When loading through CDN, you still need to register **Vue I18n Phrase In-Context Editor** by yourself. Whole [<Badge text="VueI18nPhraseInContextEditor" vertical="middle" />](../../api/#vuei18nphrase) object is available globally under ```window['vue-i18n-phrase-in-context-editor']```.
 :::
 
-## Usage
+## Usage Vue2
 
 Let's say this is how you bootstrap [**Vue I18n**](https://github.com/kazupon/vue-i18n) in your application:
 
@@ -88,3 +88,12 @@ new Vue({
 From now on, the **In-Context Editor** is fully integrated into your Vue app, congratulations! :tada:
 
 For further information about the possible configuration options and useful methods, please have a look at our [API docs](../../api).
+
+
+## Usage Vue3
+
+Unfortunately `vue-i18n@9` for vue3, is not supporting i18n standard `formatter` option, with that we can't provide proper handling for our ICE, `formatter` is [deprecated](https://vue-i18n.intlify.dev/api/legacy.html#formatter).
+
+However we prepared basic support for composable-api `useI18n` hook. Its just example how this can be done and rest of methods can be extended when needed.
+
+Go and checkout [`examples/vue3` directory of **Vue I18n Phrase In-Context Editor** repo](https://github.com/phrase/vue-i18n-phrase-in-context-editor/tree/master/examples/vue3).
