@@ -11,10 +11,13 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7.5.0
       - name: Install and Build 🔧
         run: |
-          yarn install
-          yarn docs.build
+          pnpm install
+          pnpm docs.build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@132898c54c57c7cc6b80eb3a89968de8fc283505
         with:
