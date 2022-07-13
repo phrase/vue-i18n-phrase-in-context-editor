@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.1.1...v1.2.0) (2022-07-13)
+
+
+### Bug Fixes
+
+* change github action scripts ([8a9c483](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/8a9c483119bb0a6b5587dd1078d40e4d2b89ba0c))
+* release flow ([062667c](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/062667c3571b732a23e472a078dd6892632a5a75))
+
+
+### Features
+
+* add vue3 ([200ee1e](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/200ee1e0794afc842d11c78cb9251d582684a9b5))
+
 ## [1.1.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.1.0...v1.1.1) (2021-10-07)
 
 # [1.1.0](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.0.2...v1.1.0) (2021-09-01)
