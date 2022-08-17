@@ -97,3 +97,14 @@ Unfortunately `vue-i18n@9` for vue3, is not supporting i18n standard `formatter`
 However we prepared basic support for composable-api `useI18n` hook. Its just example how this can be done and rest of methods can be extended when needed.
 
 Go and checkout [`examples/vue3` directory of **Vue I18n Phrase In-Context Editor** repo](https://github.com/phrase/vue-i18n-phrase-in-context-editor/tree/master/examples/vue3).
+
+
+## Using the US Datacenter with ICE
+
+In addition to `phraseEnabled` and `projectId` in the config, also add the US specific URLs to enable working through the US endpoint.
+```
+  baseUrl: "https://us.app.phrase.com",
+  apiBaseUrl: 'https://api.us.app.phrase.com/api/v2',
+  oauthEndpointUrl: "https://api.us.app.phrase.com/api/v2/authorizations",
+  profileUrl: "https://us.app.phrase.com/settings/profile",
+```

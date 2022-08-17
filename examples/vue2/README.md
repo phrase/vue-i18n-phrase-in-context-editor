@@ -5,8 +5,8 @@
 ### Install dependencies & run
 
 ```bash
-yarn install
-yarn serve
+pnpm install
+pnpm serve
 ```
 
 ### Login to Phrase demo project
