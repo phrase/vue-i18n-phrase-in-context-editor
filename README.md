@@ -27,21 +27,21 @@ Detailed changes for each release are documented in the [changelog](https://gith
 
 ``` bash
 # install deps
-yarn
+pnpm install
 
 # build dist files
-yarn build
+pnpm build
 
-# serve examples at localhost:8080
-cd examples/basic
-yarn
-yarn serve
+# serve examples at localhost:3000
+cd examples/vue3
+pnpm install
+pnpm dev
 
 # lint & fix files
-yarn lint
+pnpm lint
 
 # run all tests
-yarn test
+pnpm test
 ```
 
 ## :package: Releasing
