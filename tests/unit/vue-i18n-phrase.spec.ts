@@ -24,28 +24,28 @@ const initializeICE = (options: {phraseEnabled: boolean} = {phraseEnabled: true}
         phraseEnabled: options.phraseEnabled,
     });
     phraseScript = document.querySelector('script');
-}
+};
 
 describe('constructor', () => {
     describe('when phraseEnabled = true', () => {
         it('should add script tag to the document', () => {
-            initializeICE()
+            initializeICE();
             expect(phraseScript).not.toBeNull();
         });
         it('should add script tag with phrase url', () => {
-            initializeICE()
+            initializeICE();
             expect(phraseScript?.src.substring(0, 19)).toBe('https://phrase.com/');
         });
         it('should add script tag with new ice url', () => {
-            const originalLocation = window.location
-            delete window.location
+            const originalLocation = window.location;
+            delete window.location;
             window.location = {search: '?editor=v4'} as Location;
-            initializeICE()
+            initializeICE();
             expect(phraseScript?.src.includes('d2bgdldl6xit7z.cloudfront')).toBe(true);
-            window.location = originalLocation
+            window.location = originalLocation;
         });
         it('should set window.PHRASEAPP_ENABLED', () => {
-            initializeICE()
+            initializeICE();
             expect(window.PHRASEAPP_ENABLED).toBeTruthy();
         });
         describe('when script element already exists in the document', () => {
@@ -54,7 +54,7 @@ describe('constructor', () => {
                 phraseScript?.remove();
                 script = document.createElement('script');
                 document.head.append(script);
-                initializeICE()
+                initializeICE();
             });
 
             it('should add phrase script right before the first script element', () => {
@@ -65,7 +65,7 @@ describe('constructor', () => {
 
     describe('when phraseEnabled = false', () => {
         beforeEach(() => {
-            initializeICE({phraseEnabled: false})
+            initializeICE({phraseEnabled: false});
         });
 
         it('should not add script tag to the document', () => {
@@ -82,7 +82,7 @@ describe('phraseEnabled setter', () => {
         let originalFormatter: VueI18n.Formatter;
         beforeEach(() => {
             originalFormatter = vueI18n.formatter;
-            initializeICE()
+            initializeICE();
             vueI18nPhrase.phraseEnabled = false;
         });
 
@@ -104,7 +104,7 @@ describe('phraseEnabled setter', () => {
 
 describe('phraseEnabled getter', () => {
     beforeEach(() => {
-        initializeICE()
+        initializeICE();
     });
 
     it('should return phraseEnabled correctly', () => {
