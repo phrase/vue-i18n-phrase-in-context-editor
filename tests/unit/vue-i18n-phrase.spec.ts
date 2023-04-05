@@ -7,6 +7,7 @@ Vue.use(VueI18n);
 const projectId = 'some_project_id';
 let vueI18n: VueI18n;
 let vueI18nPhrase: VueI18nPhrase;
+let phraseScript: HTMLScriptElement | null;
 
 beforeEach(() => {
     vueI18n = new VueI18n({});
@@ -16,39 +17,44 @@ afterEach(() => {
     document.body.innerHTML = '';
 });
 
+const initializeICE = (options: {phraseEnabled: boolean} = {phraseEnabled: true}) => {
+    phraseScript = null;
+    vueI18nPhrase = new VueI18nPhrase(vueI18n, {
+        projectId,
+        phraseEnabled: options.phraseEnabled,
+    });
+    phraseScript = document.querySelector('script');
+};
+
 describe('constructor', () => {
-    let phraseScript: HTMLScriptElement | null;
-
     describe('when phraseEnabled = true', () => {
-        beforeEach(() => {
-            vueI18nPhrase = new VueI18nPhrase(vueI18n, {
-                projectId,
-                phraseEnabled: true,
-            });
-            phraseScript = document.querySelector('script');
-        });
-
         it('should add script tag to the document', () => {
+            initializeICE();
             expect(phraseScript).not.toBeNull();
         });
         it('should add script tag with phrase url', () => {
+            initializeICE();
             expect(phraseScript?.src.substring(0, 19)).toBe('https://phrase.com/');
         });
+        it('should add script tag with new ice url', () => {
+            const originalLocation = window.location;
+            delete window.location;
+            window.location = {search: '?editor=v4'} as Location;
+            initializeICE();
+            expect(phraseScript?.src.includes('d2bgdldl6xit7z.cloudfront')).toBe(true);
+            window.location = originalLocation;
+        });
         it('should set window.PHRASEAPP_ENABLED', () => {
+            initializeICE();
             expect(window.PHRASEAPP_ENABLED).toBeTruthy();
         });
         describe('when script element already exists in the document', () => {
             let script: HTMLScriptElement;
             beforeEach(() => {
-        // eslint-disable-next-line no-unused-expressions
-        phraseScript?.remove();
-        script = document.createElement('script');
-        document.head.append(script);
-        vueI18nPhrase = new VueI18nPhrase(vueI18n, {
-            projectId,
-            phraseEnabled: true,
-        });
-        phraseScript = document.querySelector('script');
+                phraseScript?.remove();
+                script = document.createElement('script');
+                document.head.append(script);
+                initializeICE();
             });
 
             it('should add phrase script right before the first script element', () => {
@@ -59,11 +65,7 @@ describe('constructor', () => {
 
     describe('when phraseEnabled = false', () => {
         beforeEach(() => {
-            vueI18nPhrase = new VueI18nPhrase(vueI18n, {
-                projectId,
-                phraseEnabled: false,
-            });
-            phraseScript = document.querySelector('script');
+            initializeICE({phraseEnabled: false});
         });
 
         it('should not add script tag to the document', () => {
@@ -80,10 +82,7 @@ describe('phraseEnabled setter', () => {
         let originalFormatter: VueI18n.Formatter;
         beforeEach(() => {
             originalFormatter = vueI18n.formatter;
-            vueI18nPhrase = new VueI18nPhrase(vueI18n, {
-                projectId,
-                phraseEnabled: true,
-            });
+            initializeICE();
             vueI18nPhrase.phraseEnabled = false;
         });
 
@@ -105,10 +104,7 @@ describe('phraseEnabled setter', () => {
 
 describe('phraseEnabled getter', () => {
     beforeEach(() => {
-        vueI18nPhrase = new VueI18nPhrase(vueI18n, {
-            projectId,
-            phraseEnabled: true,
-        });
+        initializeICE();
     });
 
     it('should return phraseEnabled correctly', () => {
