@@ -35,8 +35,8 @@ describe('constructor', () => {
             expect(phraseScript?.src.substring(0, 19)).toBe('https://phrase.com/');
         });
         it('should add script tag with new ice url', () => {
-            window.location = {search: '?editor=v4'} as Location
-            expect(phraseScript?.src.includes('d2bgdldl6xit7z.cloudfront')).toBeTruthy
+            window.location = {search: '?editor=v4'} as Location;
+            expect(phraseScript?.src.includes('d2bgdldl6xit7z.cloudfront')).toBeTruthy;
         });
         it('should set window.PHRASEAPP_ENABLED', () => {
             expect(window.PHRASEAPP_ENABLED).toBeTruthy();
