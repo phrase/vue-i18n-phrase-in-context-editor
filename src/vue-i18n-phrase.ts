@@ -26,9 +26,9 @@ export default class VueI18nPhrase {
 
     private loadInContextEditor() {
         this.phraseScript = document.createElement('script');
-        this.phraseScript.type = 'text/javascript';
+        this.phraseScript.type = 'module';
         this.phraseScript.async = true;
-        this.phraseScript.src = `https://phrase.com/assets/in-context-editor/2.0/app.js?${new Date().getTime()}`;
+        this.phraseScript.src = `https://d2bgdldl6xit7z.cloudfront.net/latest/ice/main.js`;
         const script = document.getElementsByTagName('script')[0];
         if (script?.parentNode) {
             script.parentNode.insertBefore(this.phraseScript, script);
