@@ -41,6 +41,7 @@ describe('constructor', () => {
             delete window.location;
             window.location = {search: '?editor=v4'} as Location;
             initializeICE();
+            
             expect(phraseScript?.src.includes('d2bgdldl6xit7z.cloudfront')).toBe(true);
             window.location = originalLocation;
         });
