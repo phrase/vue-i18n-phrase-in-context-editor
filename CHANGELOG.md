@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.3.0...v1.3.1) (2023-04-06)
+
+
+### Bug Fixes
+
+* Add missing field in type ([1ad2bae](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/1ad2baeea884a784e43173e0bf348f8e28467262))
+
 # [1.3.0](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.2.0...v1.3.0) (2023-04-05)
 
 
