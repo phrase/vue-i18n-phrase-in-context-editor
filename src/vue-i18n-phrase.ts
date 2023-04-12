@@ -29,7 +29,7 @@ export default class VueI18nPhrase {
         this.phraseScript.async = true;
         if (window.location.search.includes('editor=v4')) {
             this.phraseScript.type = 'module';
-            this.phraseScript.src = `https://d2bgdldl6xit7z.cloudfront.net/latest/ice/main.js`;
+            this.phraseScript.src = `https://d2bgdldl6xit7z.cloudfront.net/latest/ice/index.js`;
         } else {
             this.phraseScript.type = 'text/javascript';
             this.phraseScript.src = `https://phrase.com/assets/in-context-editor/2.0/app.js?${new Date().getTime()}`;
