@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.3.1...v1.3.2) (2023-04-12)
+
+
+### Bug Fixes
+
+* Adjust bundle path ([9ae4653](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/9ae4653ea615909c4dcbb21b7971bee31e3b6687))
+
 ## [1.3.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.3.0...v1.3.1) (2023-04-06)
 
 
