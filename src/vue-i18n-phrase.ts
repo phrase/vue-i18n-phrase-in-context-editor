@@ -9,6 +9,7 @@ export default class VueI18nPhrase {
     private static defaultConfig: Partial<PhraseConfig> = {
         prefix: '{{__',
         suffix: '__}}',
+        useOldICE: false,
         fullReparse: true,
     };
 
@@ -27,7 +28,7 @@ export default class VueI18nPhrase {
     private loadInContextEditor() {
         this.phraseScript = document.createElement('script');
         this.phraseScript.async = true;
-        if (window.location.search.includes('editor=v4')) {
+        if (!this.config.useOldICE) {
             this.phraseScript.type = 'module';
             this.phraseScript.src = `https://d2bgdldl6xit7z.cloudfront.net/latest/ice/index.js`;
         } else {
