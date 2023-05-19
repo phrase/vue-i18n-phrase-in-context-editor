@@ -5,7 +5,7 @@
 [![LICENSE MIT](https://img.shields.io/github/license/phrase/vue-i18n-phrase-in-context-editor)](https://github.com/phrase/vue-i18n-phrase-in-context-editor/blob/master/LICENSE)
 [![GitHub documentation deployment](https://img.shields.io/github/deployments/phrase/vue-i18n-phrase-in-context-editor/github-pages?label=docs-deploy)](https://github.com/phrase/vue-i18n-phrase-in-context-editor/deployments?environment=github-pages)
 
-**Vue I18n Phrase In-Context Editor** is the official library for integrating [Phrase In-Context-Editor](https://help.phrase.com/help/translate-directly-on-your-website) with [Vue I18n](https://kazupon.github.io/vue-i18n/).
+**Vue I18n Phrase In-Context Editor** is the official library for integrating [Phrase Strings In-Context Editor](https://support.phrase.com/hc/en-us/articles/5784095916188-In-Context-Editor-Strings) with [Vue I18n](https://kazupon.github.io/vue-i18n/).
 
 ## :scroll: Documentation
 
