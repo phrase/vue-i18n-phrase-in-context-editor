@@ -38,7 +38,7 @@ Please use [GitHub issues](https://github.com/phrase/vue-i18n-phrase-in-context-
 
 ## :memo: Changelog
 
-Detailed changes for each release are documented in the [changelog](https://github.com/phrase/react-intl-phraseapp/releases).
+Detailed changes for each release are documented in the [changelog](https://github.com/phrase/vue-i18n-phrase-in-context-editor/blob/master/CHANGELOG.md).
 
 ## :package: Releasing
 
