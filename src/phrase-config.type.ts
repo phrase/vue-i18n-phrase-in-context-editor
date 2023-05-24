@@ -17,6 +17,7 @@ export type PhraseConfig = {
     prefix: string;
     suffix: string;
     autoLowercase: boolean;
+    useOldICE: boolean;
     forceLocale: boolean;
     loginDialogMessage: string;
     autoLogin: {

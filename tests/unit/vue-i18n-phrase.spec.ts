@@ -8,8 +8,10 @@ const projectId = 'some_project_id';
 let vueI18n: VueI18n;
 let vueI18nPhrase: VueI18nPhrase;
 let phraseScript: HTMLScriptElement | null;
+let useOldICE: boolean;
 
 beforeEach(() => {
+    useOldICE = true;
     vueI18n = new VueI18n({});
 });
 afterEach(() => {
@@ -22,6 +24,7 @@ const initializeICE = (options: {phraseEnabled: boolean} = {phraseEnabled: true}
     vueI18nPhrase = new VueI18nPhrase(vueI18n, {
         projectId,
         phraseEnabled: options.phraseEnabled,
+        useOldICE
     });
     phraseScript = document.querySelector('script');
 };
@@ -37,13 +40,10 @@ describe('constructor', () => {
             expect(phraseScript?.src.substring(0, 19)).toBe('https://phrase.com/');
         });
         it('should add script tag with new ice url', () => {
-            const originalLocation = window.location;
-            delete window.location;
-            window.location = {search: '?editor=v4'} as Location;
+            useOldICE = false;
             initializeICE();
             
             expect(phraseScript?.src.includes('d2bgdldl6xit7z.cloudfront')).toBe(true);
-            window.location = originalLocation;
         });
         it('should set window.PHRASEAPP_ENABLED', () => {
             initializeICE();

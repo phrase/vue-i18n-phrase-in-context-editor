@@ -25,7 +25,7 @@ const vueI18n = new VueI18n({
 
 new VueI18nPhraseInContextEditor(vueI18n, {
   phraseEnabled: true,
-  projectId: '00000000000000004158e0858d2fa45c'
+  projectId: '00000000000000004158e0858d2fa45c',
   accountId: '0bed59e5'
 });
 

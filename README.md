@@ -5,23 +5,11 @@
 [![LICENSE MIT](https://img.shields.io/github/license/phrase/vue-i18n-phrase-in-context-editor)](https://github.com/phrase/vue-i18n-phrase-in-context-editor/blob/master/LICENSE)
 [![GitHub documentation deployment](https://img.shields.io/github/deployments/phrase/vue-i18n-phrase-in-context-editor/github-pages?label=docs-deploy)](https://github.com/phrase/vue-i18n-phrase-in-context-editor/deployments?environment=github-pages)
 
-**Vue I18n Phrase In-Context Editor** is the official library for integrating [Phrase In-Context-Editor](https://help.phrase.com/help/translate-directly-on-your-website) with [Vue I18n](https://kazupon.github.io/vue-i18n/).
+**Vue I18n Phrase In-Context Editor** is the official library for integrating [Phrase Strings In-Context Editor](https://support.phrase.com/hc/en-us/articles/5784095916188-In-Context-Editor-Strings) with [Vue I18n](https://kazupon.github.io/vue-i18n/).
 
 ## :scroll: Documentation
 
 To get started, have a look at the [documentation](https://phrase.github.io/vue-i18n-phrase-in-context-editor/). There you will find [API docs](https://phrase.github.io/vue-i18n-phrase-in-context-editor/api/), [getting started guide](https://phrase.github.io/vue-i18n-phrase-in-context-editor/guide/getting-started/), [examples](https://phrase.github.io/vue-i18n-phrase-in-context-editor/examples/) and much more!
-
-## :question: Questions
-
-For questions or support, contact us at: [phrase.com/contact](https://phrase.com/contact).
-
-## :exclamation: Issues
-
-Please use [GitHub issues](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues) to share the problem.
-
-## :memo: Changelog
-
-Detailed changes for each release are documented in the [changelog](https://github.com/phrase/vue-i18n-phrase-in-context-editor/blob/master/CHANGELOG.md).
 
 ## :hammer: Development
 
@@ -43,6 +31,14 @@ pnpm lint
 # run all tests
 pnpm test
 ```
+
+## :exclamation: Issues, Questions, Support
+
+Please use [GitHub issues](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues) to share the problem, and we will do our best to answer any questions or to support you in finding a solution.
+
+## :memo: Changelog
+
+Detailed changes for each release are documented in the [changelog](https://github.com/phrase/react-intl-phraseapp/releases).
 
 ## :package: Releasing
 
