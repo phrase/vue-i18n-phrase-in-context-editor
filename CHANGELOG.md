@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.3.2...v1.4.0) (2023-05-24)
+
+
+### Features
+
+* Use new ICE by default ([4285cfd](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/4285cfd97b6724b28f8af76a999e6545bbd669d6))
+
 ## [1.3.2](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.3.1...v1.3.2) (2023-04-12)
 
 
