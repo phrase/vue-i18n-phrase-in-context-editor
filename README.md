@@ -32,9 +32,17 @@ pnpm lint
 pnpm test
 ```
 
-## :exclamation: Issues, Questions, Support
+## :white_check_mark: Commits & Pull Requests
 
-Please use [GitHub issues](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues) to share the problem, and we will do our best to answer any questions or to support you in finding a solution.
+We welcome anyone who wants to contribute to our codebase, so if you notice something, feel free to open a Pull Request! However, we ask that you please use the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification for your commit messages and titles when opening a Pull Request.
+
+Example: `chore: Update README`
+
+We have an automated version management and release process based off of this message convention, so it'd be highly appreciated if you could follow this coding guideline.
+
+## :question: Issues, Questions, Support
+
+Please use [GitHub issues](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues) to share your problem, and we will do our best to answer any questions or to support you in finding a solution.
 
 ## :memo: Changelog
 
