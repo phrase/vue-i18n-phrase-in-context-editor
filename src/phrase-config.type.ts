@@ -20,6 +20,7 @@ export type PhraseConfig = {
     useOldICE: boolean;
     forceLocale: boolean;
     loginDialogMessage: string;
+    datacenter: 'eu' | 'us';
     autoLogin: {
         perform: boolean;
         email: string;
