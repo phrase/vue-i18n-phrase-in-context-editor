@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.4.0...v1.4.1) (2023-08-28)
+
+
+### Bug Fixes
+
+* **TSE-1157:** Improve US datacenter documentation and typings ([#84](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues/84)) ([e344c66](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/e344c661adc966734c8600cc50e76ff18185def1))
+
 # [1.4.0](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.3.2...v1.4.0) (2023-05-24)
 
 
