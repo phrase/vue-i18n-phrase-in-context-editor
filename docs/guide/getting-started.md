@@ -110,7 +110,7 @@ Go and checkout [`examples/vue3` directory of **Vue I18n Phrase In-Context Edito
 
 ## Using the US Datacenter with ICE
 
-In addition to `phraseEnabled` and `projectId` in the config, also set the US datacenter to enable working through the US endpoints.
+In addition to the settings in your config, set the US datacenter to enable it working with the US endpoints.
 ```js
   datacenter: 'us'
 ```
