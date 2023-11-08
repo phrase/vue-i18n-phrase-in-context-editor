@@ -37,8 +37,6 @@
     "tests/**/*.ts",
     "tests/**/*.tsx",
     "main.ts",
-    ".eslintrc.js",
-    "*.config.js"
   ],
   "exclude": [
     "node_modules"
