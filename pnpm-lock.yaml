@@ -6762,11 +6762,9 @@ packages:
     engines: {node: '>=0.8.x'}
     dev: true
 
-  /eventsource@1.0.7:
-    resolution: {integrity: sha512-4Ln17+vVT0k8aWq+t/bF5arcS3EpT9gYtW66EPacdj/mAFevznsnyoHLPy2BA8gbIQeIHoPsvwmfBftfcG//BQ==}
+  /eventsource@1.1.2:
+    resolution: {integrity: sha512-xAH3zWhgO2/3KIniEKYPr8plNSzlGINOUqYj0m0u7AB81iRw8b/3E73W6AuU+6klLbaSFmZnaETQ2lXPfAydrA==}
     engines: {node: '>=0.12.0'}
-    dependencies:
-      original: 1.0.2
     dev: true
 
   /evp_bytestokey@1.0.3:
@@ -10654,12 +10652,6 @@ packages:
       wcwidth: 1.0.1
     dev: true
 
-  /original@1.0.2:
-    resolution: {integrity: sha512-hyBVl6iqqUOJ8FqRe+l/gS8H+kKYjrEndd5Pm1MfBtsEKA038HkkdbAl/72EAXGyonD/PFsvmVG+EvcIpliMBg==}
-    dependencies:
-      url-parse: 1.5.3
-    dev: true
-
   /os-browserify@0.3.0:
     resolution: {integrity: sha512-gjcpUc3clBf9+210TRaDWbf+rZZZEshZ+DlXMRCeAjp0xhTrnQsKHypIy1J3d5hKdUzj69t708EHtU8P6bUn0A==}
     dev: true
@@ -12542,7 +12534,7 @@ packages:
     resolution: {integrity: sha512-5zaLyO8/nri5cua0VtOrFXBPK1jbL4+1cebT/mmKA1E1ZXOvJrII75bPu0l0k843G/+iAbhEqzyKr0w/eCCj7g==}
     dependencies:
       debug: 3.2.6(supports-color@6.1.0)
-      eventsource: 1.0.7
+      eventsource: 1.1.2
       faye-websocket: 0.11.3
       inherits: 2.0.4
       json3: 3.3.3
