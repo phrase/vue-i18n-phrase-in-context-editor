@@ -9328,7 +9328,7 @@ packages:
     resolution: {integrity: sha512-On+V7K2uZK6wK7x691ycSUbLD/FyKKelArkbaAMSSJU8JmqmhwN2+mnJDNINuJWSrh2L0kDk+ZQtbC/gOWUwLw==}
     dependencies:
       chalk: 2.4.2
-      shell-quote: 1.7.2
+      shell-quote: 1.8.1
     dev: true
 
   /left-pad@1.3.0:
@@ -12437,8 +12437,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shell-quote@1.7.2:
-    resolution: {integrity: sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==}
+  /shell-quote@1.8.1:
+    resolution: {integrity: sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==}
     dev: true
 
   /shellwords@0.1.1:
