@@ -15,4 +15,4 @@ assignees: ''
 version, browser, and operating system
 
 **Steps to reproduce the problem**
-Ideally, provide a working demo
+Ideally, provide a minimally reproducible example
