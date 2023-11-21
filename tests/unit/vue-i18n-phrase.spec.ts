@@ -35,20 +35,24 @@ describe('constructor', () => {
             initializeICE();
             expect(phraseScript).not.toBeNull();
         });
+
         it('should add script tag with phrase url', () => {
             initializeICE();
             expect(phraseScript?.src.substring(0, 19)).toBe('https://phrase.com/');
         });
+
         it('should add script tag with new ice url', () => {
             useOldICE = false;
             initializeICE();
             
             expect(phraseScript?.src.includes('d2bgdldl6xit7z.cloudfront')).toBe(true);
         });
+
         it('should set window.PHRASEAPP_ENABLED', () => {
             initializeICE();
             expect(window.PHRASEAPP_ENABLED).toBeTruthy();
         });
+
         describe('when script element already exists in the document', () => {
             let script: HTMLScriptElement;
             beforeEach(() => {
@@ -61,6 +65,11 @@ describe('constructor', () => {
             it('should add phrase script right before the first script element', () => {
                 expect(phraseScript?.nextElementSibling).toBe(script);
             });
+        });
+
+        it('should set origin', () => {
+            initializeICE();
+            expect(window.PHRASEAPP_CONFIG.origin).toBe('vue-i18n-phrase-in-context-editor');
         });
     });
 

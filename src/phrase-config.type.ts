@@ -34,4 +34,5 @@ export type PhraseConfig = {
     };
     fullReparse: boolean;
     sanitize?: (content: string)=> string;
+    origin: string;
 };

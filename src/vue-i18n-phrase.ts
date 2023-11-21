@@ -11,6 +11,7 @@ export default class VueI18nPhrase {
         suffix: '__}}',
         useOldICE: false,
         fullReparse: true,
+        origin: 'vue-i18n-phrase-in-context-editor'
     };
 
     private phraseScript?: HTMLScriptElement;
