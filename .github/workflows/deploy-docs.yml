@@ -6,6 +6,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_AUTH_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -22,8 +24,10 @@ jobs:
         with:
           version: 8.10.2
       
-      - name: Configure pnpm to use GITHUB_TOKEN
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc   
+      - name: Configure Phrase GitHub packages registry url & auth token
+        run: |
+          pnpm config set --global "npmScopes[phrase].npmRegistryServer" "https://npm.pkg.github.com"
+          pnpm config set --global "npmScopes[phrase].npmAuthToken" "\${GITHUB_AUTH_TOKEN}"
 
       - name: Install and Build 🔧
         run: |
