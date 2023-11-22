@@ -4,8 +4,6 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -20,10 +18,8 @@ jobs:
         with:
             version: 8.10.2
 
-      - name: Configure Phrase GitHub packages registry url & auth token
-        run: |
-          pnpm config set --global "npmScopes[phrase].npmRegistryServer" "https://npm.pkg.github.com"
-          pnpm config set --global "npmScopes[phrase].npmAuthToken" "\${NODE_AUTH_TOKEN}" 
+      - name: Configure pnpm to use GITHUB_TOKEN
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc      
 
       - name: Install dependencies
         run: pnpm install
