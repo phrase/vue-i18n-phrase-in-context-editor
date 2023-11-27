@@ -9,9 +9,7 @@ module.exports = {
             statements: 100,
         },
     },
-    globals: {
-        "ts-jest": {
-            packageJson: "package.json",
-        },
+    transform: {
+        "^.+\\.tsx?$": ["ts-jest", { packageJson: "package.json" }],
     },
 };

@@ -2,7 +2,8 @@ module.exports = {
     "plugins": [
         ["@semantic-release/commit-analyzer", {
             "releaseRules": [
-                {"type": "chore", "scope": "deps", "release": "patch"}
+                { "type": "chore", "scope": "deps", "release": "patch" },
+                { "type": "docs", "scope": "README", "release": "patch" },
             ]
         }],
         "@semantic-release/release-notes-generator",
