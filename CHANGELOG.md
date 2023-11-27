@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.4.1...v1.5.0) (2023-11-27)
+
+
+### Features
+
+* **TSE-1350:** Add origin field to ICE config ([#107](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues/107)) ([cad9526](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/cad952614d9a4a68b5a5e9048982917c1f04d3d4))
+* **TSE-1350:** Add origin field to ICE config ([#108](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues/108)) ([d5cfda5](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/d5cfda537fcc64b50c2f7c1f7c14b46a087a189c))
+
 ## [1.4.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.4.0...v1.4.1) (2023-08-28)
 
 
