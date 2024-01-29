@@ -26,4 +26,9 @@ export default class App extends Vue {}
   color: #2c3e50;
   margin-top: 60px;
 }
+
+body > iframe {
+  display: none;
+}
+
 </style>
