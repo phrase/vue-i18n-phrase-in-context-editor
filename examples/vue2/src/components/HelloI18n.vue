@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2>{{ $t('title') }}</h2>
-    <h3>{{ $t('headline') }}</h3>
-    <p>{{ $tc('intro', 1) }}</p>
+    <h2>{{ $data.t('hero_title') }}</h2>
+    <h3>{{ $data.t('headline') }}</h3>
+    <h3>{{ $data.t('hero_link_docs') }}</h3>
     <p v-t="{path: 'text'}"></p>
 
     <i18n path="text" tag="p"></i18n>
@@ -10,19 +10,25 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
+import { Component, Vue } from 'vue-property-decorator';
+import { usePhraseI18n } from '../i18n'
+import VueI18n, { IVueI18n } from 'vue-i18n';
 
-@Component
-export default class HelloI18n extends Vue {
-}
+@Component({
+  data: function () {
+    const { t } = usePhraseI18n(this.$i18n as VueI18n & IVueI18n )
+    return { t }
+  },
+})
+export default class HelloI18n extends Vue {}
 </script>
 
 <i18n>
 {
   "en": {
-    "title": "Dummy title",
+    "hero_title": "Dummy title",
     "headline": "",
-    "intro": "",
+    "hero_link_docs": "",
     "text": ""
   }
 }

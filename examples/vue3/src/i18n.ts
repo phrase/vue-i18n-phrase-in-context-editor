@@ -4,7 +4,7 @@ import '@sagi.io/globalthis';
 import type { LocaleMessages, VueMessageType } from 'vue-i18n';
 
 function loadLocaleMessages (): LocaleMessages<VueMessageType> {
-    const locales = import.meta.globEager('./locales/*.json');
+    const locales = import.meta.glob('./locales/*.json', {eager: true});
     const messages: LocaleMessages<VueMessageType> = {};
     for (const path in locales) {
         // eslint-disable-next-line @typescript-eslint/prefer-regexp-exec
