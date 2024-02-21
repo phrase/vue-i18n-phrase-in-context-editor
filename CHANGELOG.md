@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.5.0...v1.5.1) (2024-02-21)
+
+
+### Bug Fixes
+
+* adjust Github workflow to use Node v20 ([#117](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues/117)) ([c2bc588](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/c2bc58808cdfd08435edf1edfd982eb5a313c405))
+
 # [1.5.0](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.4.1...v1.5.0) (2023-11-27)
 
 
