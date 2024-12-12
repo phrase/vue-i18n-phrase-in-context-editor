@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.5.1...v1.6.0) (2024-12-12)
+
+
+### Features
+
+* **STRINGS-221:** Extend `PhraseConfig` type with `hidingClasses` field ([#129](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues/129)) ([b2f314b](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/b2f314bceade885afdec740c15bd9f8a9404d537))
+
 ## [1.5.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.5.0...v1.5.1) (2024-02-21)
 
 
