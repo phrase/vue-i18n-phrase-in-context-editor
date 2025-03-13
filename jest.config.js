@@ -1,4 +1,5 @@
 module.exports = {
+    testEnvironment: 'jsdom',
     preset: '@vue/cli-plugin-unit-jest/presets/typescript-and-babel',
     testPathIgnorePatterns: ['/node_modules/', '/examples/', '/docs/'],
     coverageThreshold: {
