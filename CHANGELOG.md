@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.6.0...v1.6.1) (2025-05-19)
+
+
+### Bug Fixes
+
+* add vuepress dep to fix build pipeline ([#135](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues/135)) ([339e0ef](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/339e0ef57159d8a86245e5fa4c0648b669f1f110))
+
 # [1.6.0](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.5.1...v1.6.0) (2024-12-12)
 
 
