@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.6.1...v1.6.2) (2025-08-04)
+
+
+### Bug Fixes
+
+* **SCM-613:** Replace CDN url   ([#138](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues/138)) ([2c48d79](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/2c48d7908c5d7ab17a19bf4ffe1cdd6127288f13))
+
 ## [1.6.1](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.6.0...v1.6.1) (2025-05-19)
 
 
