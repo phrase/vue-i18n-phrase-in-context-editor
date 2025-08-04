@@ -45,7 +45,7 @@ describe('constructor', () => {
             useOldICE = false;
             initializeICE();
             
-            expect(phraseScript?.src.includes('d2bgdldl6xit7z.cloudfront')).toBe(true);
+            expect(phraseScript?.src.includes('cdn.phrase.com/strings/plugins/editor/latest/ice/index.js')).toBe(true);
         });
 
         it('should set window.PHRASEAPP_ENABLED', () => {
