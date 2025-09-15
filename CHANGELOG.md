@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.6.2...v1.6.3) (2025-09-15)
+
+
+### Bug Fixes
+
+* resolve pnpm build errors ([#141](https://github.com/phrase/vue-i18n-phrase-in-context-editor/issues/141)) ([17c726e](https://github.com/phrase/vue-i18n-phrase-in-context-editor/commit/17c726e4c6c264ca6beeac43ac4b7453b0630600))
+
 ## [1.6.2](https://github.com/phrase/vue-i18n-phrase-in-context-editor/compare/v1.6.1...v1.6.2) (2025-08-04)
 
 
